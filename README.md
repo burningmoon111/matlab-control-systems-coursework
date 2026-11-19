@@ -27,7 +27,22 @@ main_run
 main_run_module2
 ```
 
-建议使用与课程环境兼容的 MATLAB 版本运行。参数文件以 `.mat` 格式随源码一同提供。
+建议使用与课程环境兼容的 MATLAB 版本运行。
+
+## 参数文件
+
+源码依赖本地 `.mat` 参数文件。由于当前上传通道仅支持文本文件，以下文件需要通过 GitHub 网页补传到相应目录：
+
+```text
+classic-control/freq_params.mat
+classic-control/model_params.mat
+classic-control/pd_params.mat
+classic-control/rl_params.mat
+modern-control/co_params.mat
+modern-control/sf_params.mat
+modern-control/ss_params.mat
+modern-control/state_sol_params.mat
+```
 
 ## 目录结构
 
